@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Cats Vs. Dogs</title>
-		<ol>
+		<nav>
 		Photos
 		Submit
 		About
 		Blog
 		Contact  
-		</ol>
+		</nav>
 	</head>
 	<body>
 	<h1>Dogs Have Better Noses</h1>
