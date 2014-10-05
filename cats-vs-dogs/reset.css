@@ -148,3 +148,14 @@ body {
 	#dogpic {
 		display: block; /*--Since IMG is an inline element--*/
 	}
+	
+	.post-footer {
+		font-size: small;
+		border-bottom:3px solid black;
+		bottom:0px;
+	}
+
+	.post-footer a {
+		text-decoration: none;
+		color: #000;
+	}
