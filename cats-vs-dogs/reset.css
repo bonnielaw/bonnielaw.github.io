@@ -32,10 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	position: relative;
-	line-height: 1.5em;
-	font-family: serf;
-	font-style: Georgia, serif;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -78,4 +75,13 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+
+/* END RESET */
+
+body {
+	position: relative;
+	font-family: serif;
+	font-style: Georgia, serif;
+	line-height: 1.5em;
+	font-size: 1em;
 
