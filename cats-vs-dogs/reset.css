@@ -78,6 +78,11 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+header h1 {
+	display: block;
+	text-align: center;
+}
+
 #top-menu {
 	display: inline;
 	list-style: none;
