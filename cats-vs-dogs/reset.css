@@ -36,12 +36,10 @@ body {
 }
 ol, ul {
 	list-style: none;
+	float: right;
 
 }
 
-li {
-	float: left;
-}
 blockquote, q {
 	quotes: none;
 }
