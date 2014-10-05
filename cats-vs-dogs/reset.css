@@ -86,6 +86,10 @@ body {
 	font-size: 1em;
 }
 
+h1 {
+	float: right;
+}
+
 #top-menu {
 	display: inline;
 	list-style: none;
