@@ -86,9 +86,6 @@ body {
 	font-size: 1em;
 }
 
-h1 {
-	float:right;
-}
 
 #top-menu {
 	display: inline;
@@ -101,4 +98,7 @@ h1 {
 	text-align: center;
 }
 
-h2
+h2 {
+	font-style: Georgia, serif;
+	
+}
