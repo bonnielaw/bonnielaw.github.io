@@ -165,11 +165,11 @@ h2 {
 	padding: 20px;
 	}
 
-#catpic {
+#cat-pic {
 	display: block; /*--Since IMG is an inline element--*/	
 	}
 
-#dogpic {
+#pug-pic {
 	display: block; /*--Since IMG is an inline element--*/
 	}
 	
