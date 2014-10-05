@@ -36,7 +36,6 @@ body {
 }
 ol, ul {
 	list-style: none;
-	float: right;
 
 }
 
@@ -75,5 +74,9 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+li {
+	float: right;
+}
 
 
