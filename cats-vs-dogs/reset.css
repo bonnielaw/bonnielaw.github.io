@@ -89,6 +89,25 @@ html[xmlns] .clearfix { display: block; }
 	text-align: center;
 	}
 	
+ul {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	}
+
+li {
+	font-weight: bold;
+	display: inline;
+	}
+
+.menu a {
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	color: #000;
+	font-size: 1em;
+	}
+	
 body {
 	position: relative;
 	font-family: serif;
@@ -97,64 +116,64 @@ body {
 	font-size: 1em;
 	}
 	
-	#cats {
-		margin-top: 5%;
-		display: inline;
-		font-size: 1em;
-		float: left;
-		margin-left: 5%;
-		margin-bottom: 4%;
+#cats {
+	margin-top: 5%;
+	display: inline;
+	font-size: 1em;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 4%;
 	}
 
-	h2 {
-		font-size: 1.5em;
-		float: left;
-		font-weight: bold;
-		font-family: serif;
-		margin-bottom: .5em;
-		text-align: center;
-		display: block; /*--For inline elements only--*/
+h2 {
+	font-size: 1.5em;
+	float: left;
+	font-weight: bold;
+	font-family: serif;
+	margin-bottom: .5em;
+	text-align: center;
+	display: block; /*--For inline elements only--*/
 	}
 
-	#cats p {
-		text-align: left;
-		display: block; /*--For inline elements only--*/
-		max-width: 40%;
-		padding: 20px;
+#cats p {
+	text-align: left;
+	display: block; /*--For inline elements only--*/
+	max-width: 40%;
+	padding: 20px;
 	}
 
-	#dogs {
-		display: inline;
-		font-size: 1em;
-		float: right;
-		margin-top: 5%;
-		margin-left: 5%;
-		margin-bottom: 4%;
+#dogs {
+	display: inline;
+	font-size: 1em;
+	float: right;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 4%;
 	}
 
 
-	#dogs p {
-		text-align: left;
-		display: block; /*--For inline elements only--*/
-		max-width: 40%;
-		padding: 20px;
+#dogs p {
+	text-align: left;
+	display: block; /*--For inline elements only--*/
+	max-width: 40%;
+	padding: 20px;
 	}
 
-	#catpic {
-		display: block; /*--Since IMG is an inline element--*/	
+#catpic {
+	display: block; /*--Since IMG is an inline element--*/	
 	}
 
-	#dogpic {
-		display: block; /*--Since IMG is an inline element--*/
+#dogpic {
+	display: block; /*--Since IMG is an inline element--*/
 	}
 	
-	.post-footer {
-		font-size: small;
-		border-bottom:3px solid black;
-		bottom:0px;
+.post-footer {
+	font-size: small;
+	border-bottom:3px solid black;
+	bottom:0px;
 	}
 
-	.post-footer a {
-		text-decoration: none;
-		color: #000;
+.post-footer a {
+	text-decoration: none;
+	color: #000;
 	}
