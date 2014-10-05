@@ -98,6 +98,10 @@ body {
 	text-align: center;
 	}
 
+li {
+	float: left;
+	}
+
 h2 {
 	font-style: Georgia, serif;
 	font-weight: bold;
