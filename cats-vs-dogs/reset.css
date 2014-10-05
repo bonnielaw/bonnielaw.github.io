@@ -118,7 +118,6 @@ body {
 	}
 
 	#cats p {
-		float: left;
 		text-align: left;
 		display: block; /*--For inline elements only--*/
 		max-width: 40%;
@@ -136,7 +135,6 @@ body {
 
 
 	#dogs p {
-		float: left;
 		text-align: left;
 		display: block; /*--For inline elements only--*/
 		max-width: 40%;
