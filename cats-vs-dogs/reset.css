@@ -97,3 +97,12 @@ body {
 	text-align: center;
 }
 
+ul {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+li {
+	font-weight: bold;
+    display: inline;
+}
