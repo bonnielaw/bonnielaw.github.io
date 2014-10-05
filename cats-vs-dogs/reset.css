@@ -97,9 +97,56 @@ body {
 	line-height: 1.5em;
 	font-size: 1em;
 	}
+	
+	#cats {
+		margin-top: 5%;
+		display: inline;
+		font-size: 1em;
+		float: left;
+		margin-left: 5%;
+		margin-bottom: 4%;
+	}
 
-h2 {
-	font-style: Georgia, serif;
-	font-weight: bold;
-	font-size: 20px;
+	h2 {
+		font-size: 1.5em;
+		float: left;
+		font-weight: bold;
+		font-family: serif;
+		margin-bottom: .5em;
+		text-align: center;
+		display: block; /*--For inline elements only--*/
+	}
+
+	#cats p {
+		float: left;
+		text-align: left;
+		display: block; /*--For inline elements only--*/
+		max-width: 40%;
+		padding: 20px;
+	}
+
+	#dogs {
+		display: inline;
+		font-size: 1em;
+		float: right;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-bottom: 4%;
+	}
+
+
+	#dogs p {
+		float: left;
+		text-align: left;
+		display: block; /*--For inline elements only--*/
+		max-width: 40%;
+		padding: 20px;
+	}
+
+	#catpic {
+		display: block; /*--Since IMG is an inline element--*/	
+	}
+
+	#dogpic {
+		display: block; /*--Since IMG is an inline element--*/
 	}
