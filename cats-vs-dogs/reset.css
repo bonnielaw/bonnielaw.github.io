@@ -95,14 +95,11 @@ body {
 	text-decoration: none;
 	font-family: Georgia;
 	text-align: center;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
 }
 
 ul {
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
-}
-
-li {
-	font-weight: bold;
-    display: inline;
 }
