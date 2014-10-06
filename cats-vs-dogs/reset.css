@@ -172,7 +172,8 @@ h2 {
 
 #pug-pic {
 	display: block;
-	float:left;
+   	position: absolute;
+    left: 0px;
 	}
 	
 .post-footer {
