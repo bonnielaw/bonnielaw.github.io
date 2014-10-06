@@ -96,8 +96,8 @@ img.logo {
 	}
 	
 ul {
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
 	}
 
 li {
@@ -164,21 +164,26 @@ h2 {
 		clear: both;
 		border-top:3px solid black;
 		bottom:0px;
+		
 	}
 
 	footer a{
 		color:red;
 		text-decoration:none;
+		font-family: Georgia;
 	}
 
 	.left {
 		padding-top: 15px;
 		float: left;
 		margin-left: 15px;
+		font-family: Georgia;
+		
 	}
 
 	.right {
 		padding-top: 15px;
 			float:right;
 			margin-right: 15px;
+			font-family: Georgia;
 	}
