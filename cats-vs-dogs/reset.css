@@ -166,9 +166,7 @@ h2 {
 	}
 
 #cat-pic {
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-bottom: 4%;
+	float:left;
 	}
 
 #pug-pic {
