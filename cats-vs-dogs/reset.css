@@ -166,7 +166,11 @@ h2 {
 	}
 
 #cat-pic {
-	float:left;
+	display: inline;
+	float: right;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 4%;
 	}
 
 #pug-pic {
