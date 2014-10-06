@@ -173,13 +173,26 @@ h2 {
 	float:left;
 	}
 	
-.post-footer {
-	font-size: small;
-	border-bottom:3px solid black;
-	bottom:0px;
+	footer {
+		font-size: small;
+		clear: both;
+		border-top:3px solid black;
+		bottom:0px;
 	}
 
-.post-footer a {
-	text-decoration: none;
-	color: #000;
+	footer a{
+		color:red;
+		text-decoration:none;
+	}
+
+	.left {
+		padding-top: 15px;
+		float: left;
+		margin-left: 15px;
+	}
+
+	.right {
+		padding-top: 15px;
+			float:right;
+			margin-right: 15px;
 	}
