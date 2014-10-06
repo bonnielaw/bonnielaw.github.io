@@ -141,36 +141,12 @@ h2 {
 	display: block; /*--For inline elements only--*/
 	}
 
-#cats p {
-	text-align: left;
-	display: block; /*--For inline elements only--*/
-	max-width: 40%;
-	padding: 20px;
+	#cats{
+		float:right;
 	}
 
-#dogs {
-	display: inline;
-	font-size: 1em;
-	float: right;
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-bottom: 4%;
-	}
-
-
-#dogs p {
-	text-align: left;
-	display: block; /*--For inline elements only--*/
-	max-width: 40%;
-	padding: 20px;
-	}
-
-#cat-pic {
-	float:left;
-	}
-
-#pug-pic {
-	float:left;
+	#dogs{
+		float:left;
 	}
 	
 	footer {
