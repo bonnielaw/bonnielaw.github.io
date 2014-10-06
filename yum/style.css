@@ -54,19 +54,20 @@ table {
 /* END RESET */
 
 h1 {
-	font-family: "avenir next condensed", sans-serif;
+	font-family: "avenir next condensed bold", sans-serif;
 	font-size: 65px;
 	text-transform: uppercase;
 }
 
 h2 {
-	font-family: "avenir next condensed", sans-serif;
+	font-family: "avenir next condensed bold", sans-serif;
 	font-size: 25px;
 	text-transform: uppercase;
 }
 
 h3 {
-	font-family: "avenir next condensed", sans-serif;	
+	font-family: "avenir next condensed bold", sans-serif;
+	text-transform: uppercase;	
 }
 
 p {
