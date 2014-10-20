@@ -93,6 +93,7 @@ p {
 
 #list1 {
 	float:left;
+	clear:both;
 }
 
 #directions {
