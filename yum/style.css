@@ -53,6 +53,10 @@ table {
 
 /* END RESET */
 
+Body {
+	margin-left:5%;
+}
+
 h1 {
 	font-family: "Avenir Next Condensed", sans-serif;
 	font-size: 80px;
