@@ -65,13 +65,13 @@ table {
 	font-size: 12px;
 	font-family: sans-serif;
 	padding: 5px 20px 0px 0px;
-	color: SaddleBrown;
+	color: saddlebrown;
 }
 
 #main-menu {
 	padding-left: 20%;
 	padding-right: 20%;
-	background-color: SaddleBrown;
+	background-color: saddlebrown;
 }
 
 #main-menu a {
