@@ -56,8 +56,10 @@ table {
 	padding-left: 20%;
 	padding-right: 20%;
 	background-color: beige;
-	
 }
+
+#menu-wrapper:{
+	background-color:saddlebrown;
 
 #top-nav {
 	text-align: right;
@@ -68,7 +70,8 @@ table {
 }
 
 #main-menu {
-	padding-left: 20% 20%;
+	padding-left: 20%;
+	padding-right: 20%;
 	background-color: saddlebrown;
 }
 
@@ -115,8 +118,10 @@ table {
 }
 
 #main-menu {
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left:20%;
+	padding-right:20%;
+	padding-bottom:1%;
+	background-color:saddlebrown;
 }
 
 #sidebar {float:left;
