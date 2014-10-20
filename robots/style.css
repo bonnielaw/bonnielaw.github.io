@@ -84,6 +84,7 @@ table {
 	font-size: 13px;
 	font-family: sans-serif;
 	font-weight: bold;
+	text-decoration:none;
 }
 
 #page {clear:left;
