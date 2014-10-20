@@ -60,6 +60,9 @@ table {
 }
 
 #top-nav {
+	position: abosolute;
+	top:20px;
+	right:20px;
 	text-align: right;
 	font-size: 12px;
 	font-family: sans-serif;
