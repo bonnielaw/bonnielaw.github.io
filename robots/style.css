@@ -67,7 +67,7 @@ table {
 	color: saddlebrown;
 	position: absolute;
 	top:20px;
-	right:40px;
+	right:200px;
 }
 
 #top-nav a {
@@ -161,6 +161,7 @@ li{line-height:20px;}
 #footer-wrapper {
 	padding-left: 20%;
 	padding-right: 20%;
+	padding-bottom: 12%;
 	background-color: SaddleBrown;
 	margin-top:50%;	
 }
@@ -177,8 +178,39 @@ li{line-height:20px;}
 #footer-wrapper p {
 	font-size: 11.5px;
 	font-family: sans-serif;
+	line-height: 15px;
+	width:150px;
+	color: white;
+}
+
+#footer-contact {
+	float: left;
+	width: 20%;
+	color: beige;
+}
+
+#footer-follow {
+	float: left;
+	width: 30%;
+	padding-left: 45%;
+	color: beige;
 }
 
 #footer-follow a {
 	float: left;
+	width: 100%;
+	padding-left: 0%;
 }
+
+#footer-follow ul li {
+	float: left;
+	width: 30%;
+	padding-left: 0%;
+	display: inline-block;
+}
+
+.button {
+	float:left;
+}
+
+
