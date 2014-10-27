@@ -56,6 +56,7 @@ table {
 Body {
 	margin-top:2%;
 	margin-left:5%;
+	width:100%;
 }
 
 h1 {
@@ -74,6 +75,7 @@ h2 {
 	
 h4 {
 	font-style: italic;
+	position:absolute;
 	}
 
 h3 {
@@ -87,8 +89,44 @@ h5 {
 	text-transform: uppercase;
 	}
 
-p {
-	max-width: 40%;	
+
+#ingredients ul li {
+	text-align:right;
+	width: 10%;
 }
+
+#ingredients h3 {
+	text-align:right;
+	width: 10%;
+	padding-bottom: 5px;
+}
+
+
+#Left_side {
+	clear:left;
+	float:left;
+	width:150px;
+	margin:20px;
+	margin-left:40px;
+	
+}
+
+#right_side {
+	clear:both;
+	float:left;
+	width:300px;
+	margin:20px 20px 20px 40px;
+}
+
+#directions ul li {
+		line-spacing:1.3em;
+		margin-top:15px;
+	}
+
+
+footer{
+		clear:both;
+}
+
 
 
