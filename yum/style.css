@@ -90,14 +90,16 @@ h5 {
 	}
 
 
+#ingredients {
+	width:150px;
+}
 #ingredients ul li {
 	text-align:right;
-	width: 10%;
+
 }
 
 #ingredients h3 {
 	text-align:right;
-	width: 10%;
 	padding-bottom: 5px;
 }
 
@@ -117,7 +119,9 @@ h5 {
 	width:300px;
 	margin:20px 20px 20px 40px;
 }
-
+#directions {
+	width:500px;
+}
 #directions ul li {
 		line-spacing:1.3em;
 		margin-top:15px;
