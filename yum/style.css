@@ -64,6 +64,7 @@ h1 {
 	font-size: 80px;
 	text-transform: uppercase;
 	font-style: bold;
+	width:600px;
 	}
 
 h2 {
@@ -76,7 +77,10 @@ h2 {
 h4 {
 	font-style: italic;
 	position:absolute;
-	}
+	text-align:right;
+	
+}
+
 
 h3 {
 	font-family: "avenir next condensed", sans-serif;
@@ -90,45 +94,40 @@ h5 {
 	}
 
 
-#ingredients {
-	width:150px;
-}
 #ingredients ul li {
 	text-align:right;
-
+	padding:20;
 }
 
 #ingredients h3 {
 	text-align:right;
+	width: 10%;
 	padding-bottom: 5px;
+}
+
+#ingredients {
+
 }
 
 
 #Left_side {
-	clear:left;
-	float:left;
-	width:150px;
-	margin:20px;
-	margin-left:40px;
-	
+	width:30%;
+
 }
 
 #right_side {
-	clear:both;
 	float:left;
-	width:300px;
+	width:30%;
 	margin:20px 20px 20px 40px;
 }
-#directions {
-	width:500px;
-}
+
 #directions ul li {
 		line-spacing:1.3em;
 		margin-top:15px;
 	}
 
 
-footer{
+footer {
 		clear:both;
 }
 

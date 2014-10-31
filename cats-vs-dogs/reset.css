@@ -124,26 +124,35 @@ body {
 	line-height: 1.5em;
 	font-size: 1em;
 	margin:0 auto;
-  	width:900px;
-  	height:900px;
+  	width:75%;
 	}
 	
 #cats {
-	margin-top: 5%;
+	margin-top: 2%;
 	display: inline;
 	font-size: 1em;
 	float: left;
 	margin-left: 0%;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
+	width:45%;
+	text-align:left;
+	font-size:14px;
+	line-height:1.2em;
+	font-family: Georgia;
 	}
 	
 #dogs {
 	display: inline;
 	font-size: 1em;
-	float: right;
-	margin-top: 5%;
+	float: left;
+	margin-top: 2%;
 	margin-left: 5%;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
+	text-align:left;
+	width:45%;
+	font-family: Georgia;
+	font-size:14px;
+
 	}
 
 h2 {
@@ -163,7 +172,7 @@ h2 {
 			font-family: Georgia;
 			text-align:left;
 			padding: 12px;
-			width:400px;
+
 		}
 
 		#dogs{
@@ -173,7 +182,7 @@ h2 {
 			font-family: Georgia;
 			text-align:left;
 			padding: 12px;
-			width:400px;
+
 		}
 	
 	footer {
@@ -203,4 +212,10 @@ h2 {
 			float:right;
 			margin-right: 15px;
 			font-family: Georgia;
+	}
+	
+	img {max-width:75%;}
+	
+	@media screen and (max-width:800px) {
+		
 	}
