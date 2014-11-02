@@ -154,6 +154,8 @@ body {
 	font-size:14px;
 
 	}
+	
+
 
 h2 {
 	font-size: 1.5em;
@@ -214,8 +216,21 @@ h2 {
 			font-family: Georgia;
 	}
 	
-	img {max-width:75%;}
+	img {max-width:100%;}
 	
-	@media screen and (max-width:800px) {
+	
+	@media screen and (max-width:500px) {
+		#top-menu {font-size: .75em;}
+	
+		h2 {font-size: 1.25em;}
+	
+		p {font-size: .75em;}
 		
-	}
+		#cats, #dogs {width:80%;}
+	
+	
+		header h1 img {max-width:75%;}
+
+	
+	
+
