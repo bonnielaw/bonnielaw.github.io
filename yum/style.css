@@ -145,7 +145,51 @@ h5 {
 #directions p{
 		padding-bottom: 10px;
 		line-spacing:1.5em;
-		}
+		}<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">	
+	<title>yum!</title>
+  	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+  </head>
+	<body>
+	<header>
+		<h1>Shaker Lemon Pie</h1>
+
+	</header>
+	<section id='left_side'>
+		<article id='ingredients'>
+			<br>
+			<h3>Ingredients</h3>
+			<ul id='list1'>
+			<li>9 eggs, beaten</li>
+			<li>2 egg whites, beaten</li>
+			<li>4 cups sugar</li>
+			<li>4 large lemons</li>
+			<li>Pate Brisee</li>
+			</ul>
+			<h4>Makes an 11 inch pie</h4>
+	</section>
+	<section id='right_side'>
+		<article id='directions'>
+			<h3>directions</h3>
+				<p> Wash and cut 2 of the lemons into paper-thin slices. It is very important to slice the lemons as thinly as possible; use a very sharp knife. Remove peel and pith of remaining lemons and slice the flesh very thinly;  put it with the other slices in a large mixing bowl. Add sugar, and toss well to coat. Cover bowl with plastic wrap, and let the mixture rest overnight, stirring occasionally. </p>
+
+				<p> The next day, heat oven to 450. Press one circle of pastry into an 11-inch pie plate and chill. </p>
+				
+				<p> Add the beaten eggs to the lemon mixture, and mix well. Turn mixture into pie shell, neatly arranging some of the lemon slices on top. Cut long, even slashes 1 inch apart in the other pastry round, and place on top of filling. Crimp edges of the pie to seal. Brush top and edges with eggwhite glaze. Bake for 15 minutes. Reduce oven temperature to 375 and continue baking for 30 minutes, until the crust is golden brown and shiny. Let cool on a rack before serving. </p>
+			
+
+		</article>
+	</section>
+	<footer>
+		<a href="recipe_2.pdf">Take a look</a>
+	</footer>
+
+  </body>
+</html>
 
 
 
