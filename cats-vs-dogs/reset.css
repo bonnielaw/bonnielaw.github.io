@@ -78,12 +78,35 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
-img.logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5%;
-	}
+header { 
+	padding:7%; 
+	text-align:center;
+}
+
+.font1 {
+	font-family: 'league_gothicCnRg';
+	font-size:9em;
+	text-transform:uppercase;
+}
+
+.font2 {font-weight: bold;
+	font-family: Georgia;
+	font-style:italic;
+	font-size:4em;
+	text-decoration: overline;
+	text-decoration: underline;
+	
+	padding:2%;
+	color:silver;
+
+}
+
+h1{
+	
+}
+	
+
+
 
 #top-menu {
 	display: inline;
@@ -161,10 +184,11 @@ h2 {
 	font-size: 1.5em;
 	float: left;
 	font-weight: bold;
-	font-family: georgia, serif;
+	font-style: Georgia, serif;
 	margin-bottom: .5em;
 	text-align: center;
 	display: block; /*--For inline elements only--*/
+	
 	}	
 		
 		#cats{
@@ -228,9 +252,22 @@ h2 {
 		
 		#cats, #dogs {width:80%;}
 	
+		header h1 {max-width:75%;}
+	}
+		
 	
-		header h1 img {max-width:75%;}
+		@font-face {
+		    font-family: 'league_gothicCnRg';
+		    src: url('fonts/leaguegothic-condensedregular-webfont.eot');
+		    src: url('fonts/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+		         url('fonts/leaguegothic-condensedregular-webfont.woff') format('woff'),
+		         url('fonts/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+		         url('fonts/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
 
+		}
 	
 	
 
