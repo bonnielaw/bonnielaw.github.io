@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Cats Vs. Dogs</title>
+		<title>Cats <span class="font2">vs</span> Dogs</title>
 		<nav>
 		Photos
 		Submit
