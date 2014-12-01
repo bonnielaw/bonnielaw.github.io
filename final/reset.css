@@ -80,6 +80,7 @@ header {
 {position:fixed;
 	width:100%;
 	background-color:white;
+	z-index:100;
 }
 
 #sticky-wrapper {
@@ -146,8 +147,13 @@ nav ul li a:hover {
 	width:80%;
 }
 
+#artwork img:hover{
+	opacity:0.6;
+	background-color:black;
+}
+
 #project {
-	padding-top: 5%;
+	padding-top: 15%;
 	padding-left: 10%;
 	margin-top:5%;
 	float: right;
@@ -158,6 +164,7 @@ nav ul li a:hover {
 	position: fixed;
 	width: 22%;
 	padding-top:15%;
+	padding-left:15%;
 }
 
 @media only screen and (max-device-width: 350px) {
