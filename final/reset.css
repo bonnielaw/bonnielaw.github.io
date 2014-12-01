@@ -76,6 +76,16 @@ header {
 
 }
 
+#sticky
+{position:fixed;
+	width:100%;
+	background-color:white;
+}
+
+#sticky-wrapper {
+	height:150px;
+	background-color:white;
+}
 #top-menu a {
 	text-decoration: none;
 	font-family: 'modernesans';
@@ -90,21 +100,15 @@ nav ul li a:hover {
 
 .buttons {
 	width:20%;
-	clear:both;
-	position: fixed;
 	top:20px;
 	right:1%;
 	background-color:white;
-}
-
-#sticky {
-	position: relative;
-	height: 60px;
+	position:absolute;
 }
 
 #hambuger img {display:none;}
 
-.buttons h2{
+#sticky .buttons h2{
 	float:left;
 	padding:3%;
 }
@@ -116,29 +120,12 @@ nav ul li a:hover {
 	clear:both;
 }
 
-
 #content {
 	padding-top: 5%;
 	padding-left: 10%;
 	margin-top:5%;
 	clear:both;
 }
-
-ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
- 
-ul.img-list li {
-  display: inline-block;
-  height: 150px;
-  margin: 0 1em 1em 0;
-  position: relative;
-  width: 150px;
-}
-
 
 @mediascreen 
 #hamburger img {
@@ -156,13 +143,25 @@ ul.img-list li {
 
 #artwork img {
 	float:left;
+	width:80%;
 }
 
 #project {
 	padding-top: 5%;
 	padding-left: 10%;
 	margin-top:5%;
-	clear:both;
+	float: right;
 }
+
+#text {
+	float: left;
+	position: fixed;
+	width: 22%;
+	padding-top:15%;
+}
+
+@media only screen and (max-device-width: 350px) {
+
+	}
 
 
