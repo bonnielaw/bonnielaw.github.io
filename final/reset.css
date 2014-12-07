@@ -127,7 +127,7 @@ header img{
 #artwork {
 	margin:0 auto;
 	width:90%;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-left: 9%;
 	clear:both;
 }
@@ -137,20 +137,6 @@ header img{
 	padding-left: 10%;
 	margin-top:5%;
 	clear:both;
-}
-
-@mediascreen 
-#hamburger img {
-	height:30px;
-	display:block;
-}
-
-#hamburger {
-	height:150px;
-}
-
-#hamburger:hover ul {
-	display:block;
 }
 
 #artwork img {
@@ -163,20 +149,36 @@ header img{
 }
 
 #project {
-	padding-top: 15%;
+	padding-top: 30px;
 	padding-left: 10%;
-	margin-top:5%;
-	float: right;
+	float: left;
 }
 
 #text {
-	float: left;
+	float: right;
 	position: fixed;
 	width: 22%;
 	padding-top:15%;
-	padding-left:15%;
+	padding-left:60%;
 }
 
+h3 {
+	font-family: 'modernesans';
+	color: #8FBC8F;
+	font-size:2em;
+	text-transform:uppercase;
+}
+
+#project {
+	margin-right:15%;
+}
+
+#project img {
+	width:100%;
+}
+
+#aboutimage
+	
 	
 @media screen and (max-width:900px) {
 	#artwork img{
