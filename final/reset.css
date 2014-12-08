@@ -58,14 +58,13 @@ header {
 	clear:both;
 	margin-top: 50px;
 	margin-left: 15%;
-
 	float:left;
 }
 
 #top-menu {
 	width:50%;
 	margin-top: 90px;
-	margin-left: 3%;
+	margin-left: 9px;
 	float:left;
 
 }
@@ -101,7 +100,7 @@ header {
 }
 
 nav ul li a:hover {
-	border-bottom:2px solid #8FBC8F;
+	border-bottom:1px solid #8FBC8F;
 }
 
 
@@ -112,8 +111,6 @@ nav ul li a:hover {
 	background-color:white;
 	position:absolute;
 }
-
-#hambuger img {display:none;}
 
 #sticky .buttons h2{
 	float:left;
@@ -152,14 +149,32 @@ header img{
 	padding-top: 30px;
 	padding-left: 10%;
 	float: left;
+	width:50%;
+}
+
+#projectinfo {
+	float:right;
+	width: 20%;
+	margin-right:10%;
+}
+
+#projectinfo p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	letter-spacing:1px;
+	padding-bottom:10px;
 }
 
 #text {
-	float: right;
 	position: fixed;
-	width: 22%;
-	padding-top:15%;
-	padding-left:60%;
+	width: 20%;
+	padding-top:32px;
+}
+
+#resume {
+	position: fixed;
+	width: 20%;
+	padding-top:235px;
 }
 
 h3 {
@@ -167,39 +182,110 @@ h3 {
 	color: #8FBC8F;
 	font-size:2em;
 	text-transform:uppercase;
-}
-
-#project {
-	margin-right:15%;
+	padding-bottom:7px;
 }
 
 #project img {
 	width:100%;
 }
 
-#aboutimage
-	
-	
+#resume img {
+	width:50px;
+}
+
+#resume h4 {
+	padding-top:8px;
+}
+
+#mail img {
+	width:60px;
+}
+
+#mail {
+	position: fixed;
+	width: 20%;
+	padding-top:243px;
+	padding-left:10%;
+}
+
+#mail a {
+	text-decoration:none;
+	color:black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-size:.8em;
+}
+
+#resume a {
+	text-decoration:none;
+	color:black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-size:.8em;
+}
+
+h5 {
+	padding-top:7px;
+	color:black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-size:.8em;
+}
+
 @media screen and (max-width:900px) {
 	#artwork img{
 		width:45%;
 		}
 		
-	#sticky .buttons{
-		display:none;
+	
+	
+	#projectinfo {
+		clear:both;
+		width: 90%;
+		position:relative;
+		margin-left:10%;
+		margin-right:0%;
 	}
 	
+	#text {
+		width:80%;
+		position:relative;
+	}
+	
+	#project {
+
+		padding-left: 10%;
+		clear:both;
+		width:80%;
+	}
+	
+
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
 	#artwork img{
 		width:90%;
 		}
-	#logo img{
-		width:20%;
+	h3 {	
+		font-size:1.6em;
 		}
-
+		
+		#sticky .buttons {
+			display:none;
+		}
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:portrait){
+	
+}
+
+
 
 
 
