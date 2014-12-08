@@ -276,7 +276,7 @@ h2 {
 	}
 	
 	
-	@media screen and (max-width:500px) {
+	@media screen and (max-width:800px) {
 		#top-menu {font-size: .75em;}
 	
 		h2 {font-size: 1.25em;}
