@@ -101,13 +101,6 @@ header {
 
 }
 
-h1{
-	
-}
-	
-
-
-
 #top-menu {
 	display: inline;
 	list-style: none;
@@ -210,6 +203,14 @@ h2 {
 			padding: 12px;
 
 		}
+		
+		#cats p{
+			width:80%;
+		}
+		
+		#dogs p{
+			width:80%;
+		}
 	
 	footer {
 		font-size: small;
@@ -243,6 +244,38 @@ h2 {
 	img {max-width:100%;}
 	
 	
+	@media screen and (max-width:1280px) {
+		#cats, #dogs img {width:90%;}
+		#cats, #dogs {width:40%;}
+		#top-menu {font-size: 1em;}
+		.font1 {
+			font-family: 'league_gothicCnRg';
+			font-size:7em;
+			text-transform:uppercase;
+		}
+
+		.font2 {font-weight: bold;
+			font-family: Georgia;
+			font-style:italic;
+			font-size:2em;
+			text-decoration: overline;
+			text-decoration: underline;
+	
+			padding:2%;
+			color:silver;
+		}
+		
+		h2 {
+			font-size:1.2em;
+		}
+		
+		#top-menu {
+			font-size:.9em;
+		}
+		
+	}
+	
+	
 	@media screen and (max-width:500px) {
 		#top-menu {font-size: .75em;}
 	
@@ -250,9 +283,28 @@ h2 {
 	
 		p {font-size: .75em;}
 		
-		#cats, #dogs {width:80%;}
+		#cats, #dogs {width:100%;}
+		
+		.font1 {
+			font-family: 'league_gothicCnRg';
+			font-size:5.5em;
+			text-transform:uppercase;
+		}
+
+		.font2 {font-weight: bold;
+			font-family: Georgia;
+			font-style:italic;
+			font-size:1.7em;
+			text-decoration: overline;
+			text-decoration: underline;
 	
-		header h1 {max-width:75%;}
+			padding:2%;
+			color:silver;
+		}
+		
+		header{
+			width:100%;
+		}
 	}
 		
 	
